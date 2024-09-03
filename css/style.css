@@ -1,0 +1,72 @@
+@import url(global.css);
+@import url(main.css);
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--bk-color);
+}
+.logo{
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+.icons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+}
+.icons button:hover{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+.pesquisa input{
+    box-sizing: border-box;
+
+	width: 500px;
+
+
+	padding: 1em;
+	border: 0.15em solid #ffffff;
+	border-radius: 0.5em;
+    border-color: white;
+	text-align: center;
+
+}
+
+main{
+    display: flex;
+    width: 100vw;
+}
+
+
+.info{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 250px;
+    border-radius: 8px;
+    background-color: var(--second-bk);
+    width: 75vw;
+    margin-left: 10vw;
+    padding: 10px;
+}
+
+.fim{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,22 @@
+.itens-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+    width: 80vw;
+    margin-left: 8vw;
+    margin-top: 10vh;
+    border: solid;
+    text-decoration: none;
+}
+.i {
+    height: 550px;
+    width: 500px;
+}
+
+.i img{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
